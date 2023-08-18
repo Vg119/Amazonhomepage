@@ -1,0 +1,34 @@
+#navbar{
+     background-color: brown;
+     display: flex;
+     justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+li{
+    list-style-type: none;
+   
+    /* remove the numberings/bullets */
+}
+
+#outer{
+    width: 800px;
+    height: 800px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    /* to centre in main axis */
+    align-items: center;
+    /* to centre on cross axis */
+
+}
+
+#inner{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+}

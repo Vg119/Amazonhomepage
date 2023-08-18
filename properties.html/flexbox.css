@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#container{
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    align-items: flex-start;
+    
+
+}
+
+#box1{
+   background-color: beige;
+   flex-grow: 2;
+}
+
+#box2{
+   background-color: blue;
+   /* align-self: flex-end; */
+}
+
+#box3{
+   background-color: blueviolet;
+   /* flex-shrink: 0.5; */
+}
+ 
+#box4{
+   background-color: brown;
+   flex-grow: 1;
+}

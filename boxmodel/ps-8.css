@@ -1,0 +1,22 @@
+#loader{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: beige;
+    border: 25px salmon solid;
+    border-top: 25px slateblue solid;
+    /* only the top gets this border */
+   
+    animation: ani 3s ease-in-out 0s infinite normal ;
+}
+
+@keyframes ani {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+    
+}

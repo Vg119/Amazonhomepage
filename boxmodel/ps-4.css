@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: aqua;
+}
+
+#navbar{
+    height: 60px;
+    background-color: black;
+}
+
+a{
+    margin-right: 200px;
+    text-decoration: none;
+}
+
+#logo{
+    color:#f08804;
+    font-size: 25px;
+}
+
+button{
+    background-color: #f08804;
+}
+
+.divs{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 3px dotted black;
+    color: black;
+}
+
+#content{
+    height: 710px;
+    
+}
+

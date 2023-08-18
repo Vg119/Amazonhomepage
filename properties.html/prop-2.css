@@ -1,0 +1,20 @@
+#div1{
+    background-color: brown;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+
+#div2{
+    background-color: brown;
+    height: 100px;
+    width: 100px;
+   
+}
+
+#div3{
+    background-color: brown;
+    height: 100px;
+    width: 100px;
+    display: none;
+}

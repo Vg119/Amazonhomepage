@@ -1,0 +1,56 @@
+div{
+    border: 2px solid black;
+    display: inline-block;
+    width: 100px;
+}
+
+#box1{
+    background-color: bisque;
+    position: static;
+    top: 10px;
+}
+
+#box2{
+    background-color: blue;
+    position: relative;
+    top: 20px;
+    left: 10px;
+    z-index: 2;
+}
+
+#box3{
+    background-color: brown;
+    position: absolute;
+    top: 10px;
+    z-index: -1;
+} 
+/* here ancestor of box 3 is <body> */
+
+#box4{
+    background-color: burlywood;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+#box5{
+    background-color: blue;
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+
+#box6{
+    background-color: brown;
+    position: absolute;
+    top: 20px;
+    z-index: 0;
+} 
+/* here ancestor of box 3 is <body> */
+
+#box7{
+    background-color: burlywood;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
